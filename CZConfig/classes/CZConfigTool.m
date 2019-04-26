@@ -15,6 +15,7 @@
  */
 +(CGFloat)getTopBarHeight
 {
+    // 带有刘海的iPhone顶部高度为44
     return [UIApplication sharedApplication].statusBarFrame.size.height > 20 ? (44 + 44) : (20 + 44);
 }
 

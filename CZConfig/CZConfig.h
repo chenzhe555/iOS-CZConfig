@@ -65,7 +65,5 @@
 /************************************* 代码块 ******************************************/
 //弱引用代码块
 #define CZWeak(obj) __weak typeof(obj) weak##obj = obj;
-//Block代码块
-#define CZBlock_Excute(block,...) if(block) {block(__VA_ARGS__);};
 
 #endif /* CZConfig_h */
