@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CZConfig"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "iOS-配置信息"
   s.description  = "iOS-基础配置信息"
   s.homepage     = "https://github.com/chenzhe555/iOS-CZConfig"
@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/chenzhe555/iOS-CZConfig.git", :tag => "#{s.version}" }
   s.public_header_files = 'CZConfig/CZConfig.h'
   s.source_files  = 'CZConfig/CZConfig.h'
-  s.subspec 'CZConfig' do |one|
-      one.source_files = 'CZConfig/classes/*.{h,m}'
-  end
+  #s.subspec 'CZConfig' do |one|
+  #    one.source_files = 'CZConfig/classes/*.{h,m}'
+  #end
   s.frameworks = "Foundation", "UIKit"
   # s.libraries = "iconv", "xml2"
   s.requires_arc = true
