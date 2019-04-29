@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		059B132C19F45C709F0FBBF5 /* libPods-CZConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C82DE1BEB0B07442D9BD971 /* libPods-CZConfig.a */; };
+		946FEF492276FCF3003800EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946FEF482276FCF3003800EB /* Foundation.framework */; };
+		946FEF4B2276FCF9003800EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946FEF4A2276FCF9003800EB /* UIKit.framework */; };
 		947A37A6226090B0004BF175 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 947A37A5226090B0004BF175 /* AppDelegate.m */; };
 		947A37A9226090B0004BF175 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947A37A8226090B0004BF175 /* ViewController.m */; };
 		947A37AC226090B0004BF175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947A37AA226090B0004BF175 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		3C82DE1BEB0B07442D9BD971 /* libPods-CZConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZConfig.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		946FEF482276FCF3003800EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		946FEF4A2276FCF9003800EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		947A37A1226090B0004BF175 /* CZConfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZConfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		947A37A4226090B0004BF175 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		947A37A5226090B0004BF175 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				946FEF4B2276FCF9003800EB /* UIKit.framework in Frameworks */,
+				946FEF492276FCF3003800EB /* Foundation.framework in Frameworks */,
 				059B132C19F45C709F0FBBF5 /* libPods-CZConfig.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,6 +111,8 @@
 		9B710031CD84038B368DE797 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				946FEF4A2276FCF9003800EB /* UIKit.framework */,
+				946FEF482276FCF3003800EB /* Foundation.framework */,
 				3C82DE1BEB0B07442D9BD971 /* libPods-CZConfig.a */,
 			);
 			name = Frameworks;
@@ -359,7 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.CZConfig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -379,7 +387,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.CZConfig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
