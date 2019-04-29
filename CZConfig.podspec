@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.subspec 'CZConfig' do |one|
       one.source_files = 'CZConfig/classes/*.{h,m}'
   end
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "Foundation", "UIKit"
   # s.libraries = "iconv", "xml2"
   s.requires_arc = true
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
