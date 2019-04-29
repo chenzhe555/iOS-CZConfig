@@ -31,6 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
  @brief 获取安全区域高度
  */
 +(CGFloat)getSafeAreaHeight;
+
++(void)test;
 @end
 
 NS_ASSUME_NONNULL_END
