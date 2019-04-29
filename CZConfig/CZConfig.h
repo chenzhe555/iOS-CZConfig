@@ -9,6 +9,7 @@
 #ifndef CZConfig_h
 #define CZConfig_h
 
+#import <UIKit/UIKit.h>
 #import "CZConfigTool.h"
 
 #ifdef DEBUG

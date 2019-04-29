@@ -7,7 +7,6 @@
 //
 
 #import "CZConfigTool.h"
-#import <UIKit/UIApplication.h>
 
 @implementation CZConfigTool
 
