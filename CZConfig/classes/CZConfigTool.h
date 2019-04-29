@@ -6,11 +6,11 @@
 //  Copyright © 2019 ChenZhe. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <UIKit/UIApplication.h>
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
 
 /**
  @brief CZConfig工具类
