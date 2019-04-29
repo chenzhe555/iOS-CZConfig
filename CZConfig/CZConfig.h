@@ -9,7 +9,7 @@
 #ifndef CZConfig_h
 #define CZConfig_h
 
-//#import "CZConfigTool.h"
+#import "CZConfigTool.h"
 
 #ifdef DEBUG
 #define CZLog(format, ...) printf("[Time:%s]\n   Method:%s\n   Line:%d--> %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
@@ -56,11 +56,11 @@
 #define kiOSBetween(arg1,arg2) [[[UIDevice currentDevice] systemVersion] floatValue] >= (float)arg1 && [[[UIDevice currentDevice] systemVersion] floatValue] <= (float)arg2
 
 //顶部导航栏总高度
-//#define kTopBarHeight [CZConfigTool getTopBarHeight]
-////底部Tabbar总高度
-//#define kTabbarHeight [CZConfigTool getTabbarHeight]
-////安全区域高度
-//#define kSafeAreaHeight [CZConfigTool getSafeAreaHeight]
+#define kTopBarHeight [CZConfigTool getTopBarHeight]
+//底部Tabbar总高度
+#define kTabbarHeight [CZConfigTool getTabbarHeight]
+//安全区域高度
+#define kSafeAreaHeight [CZConfigTool getSafeAreaHeight]
 
 /************************************* 代码块 ******************************************/
 //弱引用代码块
