@@ -9,8 +9,6 @@
 #ifndef CZConfig_h
 #define CZConfig_h
 
-// chenzhe test
-
 #import <UIKit/UIKit.h>
 #import "CZConfigTool.h"
 

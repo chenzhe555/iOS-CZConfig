@@ -32,7 +32,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(CGFloat)getSafeAreaHeight;
 
-+(void)test;
 @end
 
 NS_ASSUME_NONNULL_END

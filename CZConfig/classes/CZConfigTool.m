@@ -38,9 +38,4 @@
     return 0;
 }
 
-+(void)test
-{
-    NSLog(@"1111");
-}
-
 @end
